@@ -28,3 +28,15 @@ Exponer la funcionalidad anterior como un API REST
 ## Etapa 4
 
 Crear una interfaz de usuario que permita utilizar este servicio via el api REST.
+
+## REQUISITOS
+
+- Java 1.8+
+- Apache Maven 3.6.2+ 
+
+## Iniciar la applicación
+`<SOURCE_PATH> mvn clean spring-boot:run`
+
+## Endpoint para consultar ruta
+`curl --location --request GET 'http://localhost:8080/metrocdmx/lines/path?origin=Observatorio&destination=Panteones'`
+
